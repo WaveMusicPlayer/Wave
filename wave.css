@@ -1,0 +1,659 @@
+/*homepage*/
+
+.homepageBody {
+    background-image: url(woman.jpg);
+    background-color: #242424;
+    height: 2252px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+}
+
+.btn-loginHome{
+    font-family: Antonio, sans-serif;
+    background: none;
+    border: none;
+    color: #e0e0e0;
+    font-size: 30pt;
+    transition-duration: 0.4s;
+}
+
+.btn-signupHome{
+    font-family: Antonio, sans-serif;
+    border: none;
+    color: #e0e0e0;
+    font-size: 30pt;
+    transition-duration: 0.4s;
+}
+
+.btn-loginHome:hover, .btn-signupHome:hover{
+    color: #6f7bf7;
+}
+
+.btn-main{
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.btn-main:hover, .btn-main:focus, .btn-main:active {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+/* credits: https://codepen.io/techshiva/pen/BEQoPX */
+@media (max-width:1024px){
+  #infograffik{
+    display: none;
+  }
+  #mailIcon{
+    margin-left: 18px;
+  }
+  #addressIcon{
+    margin-left: 18px;
+  }
+
+
+@media (max-width:991px){
+}
+  .homepageBody{
+    height: 1504px;
+  }
+}
+
+.footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    font-family: Arial, sans-serif;
+    color: #4a4a4a;
+    font-size: 14.6pt;
+}
+
+#webDescrip{
+    margin-left: 10px;
+    margin-top: 6px;
+    width: 425px;
+}
+
+@media(max-width:630px){
+  #webDescrip{
+    width: 340px;
+  }
+
+
+}
+
+#address{
+    font-family: Arial, sans-serif;
+    color: #4a4a4a;
+    margin-left: 10px;
+    margin-bottom: 8px;
+    align-self: flex-end;
+}
+
+#mail{
+    font-family: Arial, sans-serif;
+    color: #4a4a4a;
+    margin-left: 10px;
+    margin-bottom: 8px;
+    align-self: flex-end;
+}
+
+#mailIcon{
+  align-self: flex-end;
+}
+
+#addressIcon{
+  align-self: flex-end;
+}
+
+#mailCol{
+  height:15vh;
+  display:flex;
+}
+
+#addressCol{
+  height:15vh;
+  display:flex;
+}
+
+@media (max-width: 1400px ){
+  #mailCol{
+    height: 10vh;
+    margin-left: 12px;
+    padding-bottom: 10px;
+  }
+
+  #addressCol{
+    height: 12vh;
+    margin-left: 12px;
+    padding-bottom: 10px;
+  }
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Signup Page*/
+
+.leftColumn{
+  background-image: url(leftsign.jpg);
+}
+
+@media (max-width:576px){
+  .leftColumn{
+    background-image: none;
+    background-color:#242424;
+  }
+}
+
+
+#welcometxt{
+    font-family: Antonio, sans-serif;
+    color: #cdcdcd;
+    font-size: 100px;
+}
+
+#wavetxt{
+    font-family: Sen, sans-serif;
+    color: #cdcdcd;
+    font-size: 130px;
+}
+
+#btn-homepage,#btn-listenNow{
+    font-family: Sen, sans-serif;
+    color: #cdcdcd;
+    background-color: #242424;
+    border-radius: 50px;
+    border: none;
+    width: 300px;
+    height: 100px;
+    font-size: 2.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 0.4s;
+}
+
+
+#btn-homepage:hover, #btn-listenNow:hover{
+    color: #6f7bf7;
+}
+
+@media (max-width:380px){
+  #welcometxt{
+    font-size: 75px;
+  }
+
+  #wavetxt{
+    font-size: 100px;
+  }
+}
+
+@media (min-width:1700px){
+  #btn-homepage{
+    margin-left: 30%;
+  }
+
+  #btn-listenNow{
+    margin-right: 30%;
+  }
+}
+
+.signupTextRow{
+  height: 75vh;
+}
+.buttonRow{
+    height: 25vh
+}
+
+@media (max-width:768px){
+  .signupTextRow{
+    height: 75vh;
+  }
+
+  .buttonRow{
+    height:33vh;
+  }
+}
+
+.loginForm{
+    background-color: dimgrey;
+    width: 404px;
+    height: 554px;
+    border-radius: 0px;
+    background-color: #242424;
+    padding: 20px;
+}
+
+#loginTxt{
+    font-family: Antonio, sans-serif;
+    color: #cdcdcd;
+    font-size: 40px;
+    height: 115px
+}
+
+#username,#password{
+    width: 100%;
+    padding: 5px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 0;
+    outline: 0;
+    border-bottom: 3px solid #303030;
+    border-radius: 0px;
+    box-sizing: border-box;
+    background-color: #242424;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #cdcdcd;
+}
+
+.detailsBox{
+  height: 135px;
+}
+
+#btn-continue{
+    width: 100%;
+    background-image: linear-gradient(to right, #9bf8f4, #6f7bf7);
+    color: #242424;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 50px;
+    width: 150px;
+    cursor: pointer;
+    font-family: Antonio, sans-serif;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#btn-continue:hover{
+    animation: slidebg 2s linear infinite;
+}
+
+@keyframes slidebg {
+  to {
+    background-position:20vw;
+  }
+}
+
+/* credits: https://codepen.io/althi/pen/eKdmaa */
+
+#btn-register{
+    background: none;
+    border: none;
+    font-family: Antonio, sans-serif;
+    font-size: 15px;
+    color: #cdcdcd;
+    transition-duration: 0.4s;
+}
+
+#btn-register:hover{
+    color: #969696;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* PLaylist Page */
+#playlistWaveImg{
+  top:0;
+  right: 0;
+  position: absolute;
+}
+
+
+.btn-signup{
+    font-family: Antonio, sans-serif;
+    margin-right: 10px;
+    background: none;
+    border: none;
+    color: #e0e0e0;
+    font-size: 30pt;
+    transition-duration: 0.4s;
+    padding-bottom: 6%;
+}
+
+#date{
+    font-size: 11pt;
+}
+
+.btn-loginPlay:hover, .btn-signup:hover{
+    color: #6f7bf7;
+}
+
+.playlistHeader{
+  background-color: #242424;
+}
+
+.btn-loginPlay{
+    font-family: Antonio, sans-serif;
+    background: none;
+    border: none;
+    color: #e0e0e0;
+    font-size: 30pt;
+    transition-duration: 0.4s;
+    padding-bottom: 6%;
+}
+
+.shadow{
+  height: 15vh;
+}
+
+.dropShadow{
+  background-image: url(shadow.png);
+}
+
+@media(max-width:1440px){
+  #playlistWaveImg{
+    display: none
+  }
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Explore */
+
+.exploreHeader{
+  background-image: url(explore%20picture.jpg);
+}
+/* credit: https://www.freepik.com/photos/music">Music photo created by teksomolika - www.freepik.com */
+
+.exploreTxt{
+  font-size: 120pt;
+  font-family: Sen, sans-serif;
+}
+
+#themeTwoTxt{
+  font-family: Antonio, sans-serif;
+  font-size: 80pt;
+}
+
+@media (max-width:800px){
+  .exploreTxt{
+    font-size: 100pt;
+  }
+}
+@media (max-width:768px){
+  .themeTwoSpacing{
+  }
+}
+
+@media (max-width:667px){
+  .exploreTxt{
+    font-size: 75pt ;
+  }
+
+  .themeTwoSpacing{
+    height: 15vh;
+  }
+
+  #themeTwoTxt{
+    font-size: 60pt;
+  }
+}
+
+@media (max-width:520px){
+  .exploreTxt{
+    font-size: 53pt;
+  }
+}
+
+@media(max-width:425px){
+  .exploreTxt{
+    margin-top: 75px;
+  }
+}
+
+@media (max-width:325px){
+  .exploreTxt{
+    font-size: 40pt;
+  }
+}
+
+.btn-loginExplore{
+    font-family: Antonio, sans-serif;
+    background: none;
+    border: none;
+    color: #e0e0e0;
+    font-size: 30pt;
+    transition-duration: 0.4s;
+    padding-bottom: 6%;
+}
+
+.btn-signupExplore{
+    font-family: Antonio, sans-serif;
+    background: none;
+    border: none;
+    color: #e0e0e0;
+    font-size: 30pt;
+    transition-duration: 0.4s;
+    padding-bottom: 6%;
+}
+
+
+.btn-loginExplore:hover, .btn-signupExplore:hover{
+    color: #cc1121;
+}
+
+.scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
+  overflow-y: auto;
+  cursor: grab;
+}
+
+.scrollmenu a {
+  display: inline-block;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  overflow-y: auto;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    display: none;
+}
+
+#playlistNames{
+    font-family: Sen, sans-serif;
+    font-size: 25pt;
+}
+
+#playlistNames2{
+    font-family: Sen, sans-serif;
+    font-size: 20pt;
+}
+.cardBlue, .cardAqua{
+  display: inline-block;
+  background-color: #242424;
+  border: none;
+  width: 450px;
+}
+
+#aquaImage, #blueImage{
+  width: 350px;
+  height: 350px;
+}
+
+#aquaImage{
+  border:5px solid #9BF8F4;
+}
+
+#blueImage{
+  border:5px solid #6f7bf7;
+}
+
+#artistSmall{
+  width: 150px;
+  height: 150px;
+  border:5px solid #9BF8F4;
+}
+
+#artistMedium{
+  width: 250px;
+  height: 250px;
+  border:5px solid #6f7bf7;
+
+}
+
+#artistLarge{
+  width: 400px;
+  height: 400px;
+  border:5px solid #9BF8F4;
+
+}
+
+@media(max-width:768px){
+  .cardBlue,.cardAqua{
+    width: 275px;
+  }
+  #aquaImage, #blueImage{
+    width: 200px;
+    height: 200px;
+  }
+
+  #artistSmall{
+    width: 100px;
+    height: 100px;
+  }
+
+  #artistMedium{
+    width: 200px;
+    height: 200px;
+  }
+
+  #artistLarge{
+    width: 300px;
+    height: 300px;
+  }
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Player */
+
+@media (max-width:1800px){
+  .songImage{
+    display: none;
+  }
+}
+.container-audio {
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    border-radius: 0px;
+    background-color: #242424;
+    color: #444;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+audio:nth-child(2), audio:nth-child(4), audio:nth-child(6) {
+    margin: 0;
+}
+
+audio
+{
+  width:90%;
+
+}
+
+audio::-webkit-media-controls-panel{
+  background-color: #303030;
+}
+
+audio::-webkit-media-controls-play-button{
+}
+
+audio::-webkit-media-controls-current-time-display{
+  color:white;
+}
+
+audio::-webkit-media-controls-time-remaining-display{
+  color: white;
+}
+
+
+.container-audio .colum1 {
+    width: 23px;
+    height: 5em;
+    margin: 0 10px 0 0;
+    display: inline-block;
+}
+.container-audio .colum1:last-child {
+    margin: 0;
+}
+
+.playerRow{
+  border: 3px solid #1e1e1e;
+  background-color:#242424;
+  height:18vh;
+}
+
+@media(max-width:1440px){
+  .playerRow{
+    height: 23vh;
+  }
+
+  .container-audio {
+      width: 70%;
+      height: auto;
+      padding: 20px;
+      border-radius: 0px;
+      background-color: #242424;
+      color: #444;
+      margin: 20px auto;
+      overflow: hidden;
+  }
+
+  audio
+  {
+    width:100%;
+    -webkit-transition:all 0.5s linear;
+    -moz-transition:all 0.5s linear;
+    -o-transition:all 0.5s linear;
+    transition:all 0.5s linear;
+    -moz-border-radius:0px 0px 0px 0px ;
+    -webkit-border-radius:0px 0px 0px 0px ;
+    border-radius:0px 0px 0px 0px ;
+  }
+}
+
+@media(max-width:1024px){
+  .playerRow{
+    height:29vh;
+  }
+}
+
+@media(max-width:768px){
+  .playerRow{
+    height:
+  }
+}
+@media (max-width:425px){
+  .playerRow{
+    height: 29vh;
+  }
+}
+@media(max-width:425px) and (max-height:700px){
+  .playerRow{
+    height:39vh;
+  }
+}
+
+@media(max-width:375px){
+  .playerRow{
+    height:
+  }
+}
